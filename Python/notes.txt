@@ -1,0 +1,26 @@
+-->>Types of Recursion?
+1) Head Recursion
+	When a function calls itself and that called statement is the first statement in a function
+	then it is called as heard recursion.
+	There should be no statements before the recursive call.
+	So between base condition and recursion call there should not be any statement.
+2)Tail Recursion
+	When a function calls itself and that called statement is the last statement in a function
+	then it is called as tail recursion.
+3)Tree Recursion?
+
+4)Indirect Recursion: 
+	So if we have functions in such a way that they are more than one function and each function depending
+	upon the base condition calls the other function.
+	And finally, the last function, depending upon the base condition called the first function.
+	Then this is known as indirect recursion.
+
+	But always remember that in indirect recursion, the function will not call itself the function will
+	call another function and that function may call another function and so on, till the last function
+	will make a call to the first function.
+
+--> __slots__ :
+	The underscore underscore, slots underscored underscored, since is the built
+	in class level, member and class level members are preceded and succeeded by double underscored characters.
+	And assign the instance variables as our underscored element within single codes, followed by comma
+	and underscored next within single codes.
